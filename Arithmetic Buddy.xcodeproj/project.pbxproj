@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		748A0DE02D3BFCA800041C0D /* Arithmetic_BuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748A0DDD2D3BFCA800041C0D /* Arithmetic_BuddyApp.swift */; };
+		748A0DE12D3BFCA800041C0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748A0DDB2D3BFCA800041C0D /* Preview Assets.xcassets */; };
+		748A0DE22D3BFCA800041C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748A0DDE2D3BFCA800041C0D /* Assets.xcassets */; };
+		748A0DE52D3BFCDE00041C0D /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748A0DE42D3BFCDE00041C0D /* AdditionView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		748A0DCA2D3BFC9600041C0D /* Arithmetic Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arithmetic Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		748A0DDB2D3BFCA800041C0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		748A0DDD2D3BFCA800041C0D /* Arithmetic_BuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arithmetic_BuddyApp.swift; sourceTree = "<group>"; };
+		748A0DDE2D3BFCA800041C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		748A0DE42D3BFCDE00041C0D /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		748A0DCC2D3BFC9600041C0D /* Arithmetic Buddy */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Arithmetic Buddy";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		748A0DC72D3BFC9600041C0D /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		748A0DC12D3BFC9600041C0D = {
 			isa = PBXGroup;
 			children = (
-				748A0DCC2D3BFC9600041C0D /* Arithmetic Buddy */,
+				748A0DDF2D3BFCA800041C0D /* Arithmetic Buddy */,
 				748A0DCB2D3BFC9600041C0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				748A0DCA2D3BFC9600041C0D /* Arithmetic Buddy.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		748A0DDC2D3BFCA800041C0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				748A0DDB2D3BFCA800041C0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		748A0DDF2D3BFCA800041C0D /* Arithmetic Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				748A0DE32D3BFCB800041C0D /* Views */,
+				748A0DDD2D3BFCA800041C0D /* Arithmetic_BuddyApp.swift */,
+				748A0DDE2D3BFCA800041C0D /* Assets.xcassets */,
+				748A0DDC2D3BFCA800041C0D /* Preview Content */,
+			);
+			path = "Arithmetic Buddy";
+			sourceTree = "<group>";
+		};
+		748A0DE32D3BFCB800041C0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				748A0DE42D3BFCDE00041C0D /* AdditionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				748A0DCC2D3BFC9600041C0D /* Arithmetic Buddy */,
 			);
 			name = "Arithmetic Buddy";
 			packageProductDependencies = (
@@ -109,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748A0DE12D3BFCA800041C0D /* Preview Assets.xcassets in Resources */,
+				748A0DE22D3BFCA800041C0D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748A0DE52D3BFCDE00041C0D /* AdditionView.swift in Sources */,
+				748A0DE02D3BFCA800041C0D /* Arithmetic_BuddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
